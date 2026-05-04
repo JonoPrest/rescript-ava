@@ -10,12 +10,12 @@ Runtime free [ReScript](https://github.com/rescript-lang) bindings for [Ava](htt
 npm install -D @dzakh/rescript-ava ava
 ```
 
-Then add `@dzakh/rescript-ava` to `bs-dev-dependencies` in your `rescript.json`:
+Then add `@dzakh/rescript-ava` to `dev-dependencies` in your `rescript.json`:
 
 ```diff
 {
   ...
-+ "bs-dev-dependencies": ["@dzakh/rescript-ava"]
++ "dev-dependencies": ["@dzakh/rescript-ava"]
 }
 ```
 
