@@ -47,8 +47,7 @@ Then add `test` script and minimalistic configuration in your `package.json`:
 + "ava": {
 +   "files": [
 +     "__tests__/**/*_test.mjs",
-+     "__tests__/**/*_test.res.js",
-+     "__tests__/**/*_test.bs.js"
++     "__tests__/**/*_test.res.js"
 +   ]
 + }
 }
@@ -56,7 +55,7 @@ Then add `test` script and minimalistic configuration in your `package.json`:
 
 ### Create your test file
 
-Create a test file in the **tests** directory and use the suffix `*_test.res`. When compiled they will be put in a **tests** directory with a `*_test.res.js` (or `*_test.bs.js` depending on your `rescript.json` `suffix` setting) suffix, ready to be picked up when you run ava. If you're not already familiar with [Ava](https://github.com/avajs/ava), see [the Ava documentation](https://github.com/avajs/ava#documentation).
+Create a test file in the **tests** directory and use the suffix `*_test.res`. When compiled they will be put in a **tests** directory with a `*_test.res.js` suffix, ready to be picked up when you run ava. If you're not already familiar with [Ava](https://github.com/avajs/ava), see [the Ava documentation](https://github.com/avajs/ava#documentation).
 
 ```res
 // __tests__/Main_test.res
